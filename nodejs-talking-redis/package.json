@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-talking-redis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}

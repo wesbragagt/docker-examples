@@ -1,0 +1,10 @@
+version: '3'
+services:
+  redis-server: 
+    image: 'redis'
+  web:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "8080:8080"
